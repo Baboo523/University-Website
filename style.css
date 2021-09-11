@@ -463,7 +463,8 @@ h3
 .blog-left p
 {
     color:#999;
-    padding:0;
+    padding:0px;
+    text-align: justify;
 }
 .blog-right
 {
@@ -473,7 +474,7 @@ h3
 {
     background: #f44336;
     color:#fff;
-    padding: 10px 0;
+    padding: 7px 0;
     font-size: 16px;
     margin-bottom: 20px;
 }
@@ -487,3 +488,40 @@ h3
     box-sizing: border-box;
 }
 
+.comment-box{
+    border:1px solid #ccc;
+    margin:50px 0;
+    padding:10px 20px;
+}
+.comment-box h3{
+    text-align: left;
+}
+.commment-form input, .comment-form textarea{
+    width:100%;
+    padding:10px;
+    margin:15px 0;
+    box-sizing:border-box;
+    border:none;
+    outline:none;
+    background:#f0f0f0;
+}
+input
+{
+    width:100%;
+    padding:10px;
+    margin:15px 0;
+    box-sizing:border-box;
+    border:none;
+    outline:none;
+    background:#f0f0f0;
+}
+.comment-form button
+{
+    margin:10px 0;
+}
+@media (max-width:700px)
+{
+    .sub-header h1{
+        font-size: 24px;
+    }
+}
